@@ -6,6 +6,8 @@ import '../Style/Style.css'
 import { RxCross1, RxHamburgerMenu } from 'react-icons/rx';
 import { Sidebar } from './Sidebar';
 import { Text } from './Text';
+import { Text2 } from './Text2';
+import { Text3 } from './Text3';
 export const Header = () => {
     const [show, setshow] = useState(false)
     const navigate = useNavigate()
@@ -15,10 +17,14 @@ export const Header = () => {
     const handleshow = () => {
         setshow(!show)
     }
+//     <ScrollObserver
+//     targetId="targetSection"
+//     onIntersect={(isVisible) => setShowNavbar(isVisible)}
+//   />
     return (
         <div>
-            <div className='bg-[#edf1fe] mx-auto flex flex-col items-centsszer justifyb-center md:h-[84vh] w-screen  cont'>
-                <div className='md:flex flex-col text-center  gap-[0rem] justify-center'>
+            <div className='bg-[#edf1fe] mx-auto flex flex-col  justifyb-center xl:h-[78vh] w-screen  cont'>
+                <div className='md:flex flex-col  text-center  gap-[0rem] justify-center'>
                     <div className='md:flex justify-between  cont1 items-center md:px-[2.3rem]   md:py-[1.8vw]'>
                         <div className=' text-[1rem] text-[#212121] cursor-pointer font-black'>CoUpOnS</div>
                         <p className='co'>
@@ -38,7 +44,7 @@ export const Header = () => {
                     {/* text-[#212121]  */}
                     <div className='flex flex-col items-center justify-center md:-left-[1rem] relative'>
                         <div className='flex flex-col mx-auto  cont2 items-center  top-[] md:gap-[5rem] relative md:-top-[6.1rem]'>
-                            <div className=' text-center cont3 md:w-[43%] w-[90vw]  leading-[10vw] md:leading-[3.3vw] flex relative md:my-[1vw] md:top-[7rem]  md:scale-y-95 text-black font-medium    tracking-[0.2px] md:text-[3vw]'>
+                            <div className=' text-center cont3 md:w-[43%] w-[90vw] text-[#212121]  leading-[10vw] md:leading-[3.3vw] flex relative md:my-[1vw] md:top-[7rem]  md:scale-y-95 text-black font-medium    tracking-[0.2px] md:text-[3vw]'>
                                 Love deals? You came to the right place.
                             </div>
                             <div className='flex cont4 items-center  gap-[7vw]'>
@@ -76,32 +82,33 @@ export const Header = () => {
                                     <img src="/screen-removebg-preview.png" alt="mnbv" width="230px" />
                                 </div>
                             </div>
-                            <div className='flex relative md:-top-[7vw] justify-center items-center gap-[12rem] '>
-                                <div>
+                            <div className='flex flex-col items-center justify-center gap-[0rem]'>
+                                <div className='flex relative md:-top-[7vw] justify-center items-center gap-[12rem]'>
+                                    <div>
+                                        <img src="/png3-removebg-preview.png" alt="3rqd" width="220px" className='relative -top-[7vw]' />
+                                    </div>
+                                    <div className='md:relative md:-top-[8rem] items-center justify-center flex text-center left-[0rem]'>
+                                        <button className='bg-orange-700 text-white md:w-[20vw] w-[59vw] py-[1.2vh] md:py-[0.7vw] rounded-[5px] hover:bg-orange-600'>Add to Chrome - it's Free</button>
+                                    </div>
+                                    <div>
+                                        <img src="/shased-removebg-preview.png" alt="3rqd" width="200px" className='relative -top-[6vw]' />
+                                    </div>
+                                </div>
+                                <div className='flex  md:relative md:-top-[10.5rem]  justify-center text-center items-center gap-[0rem] '>
+                                    <div>
+                                        <img src="/set-removebg-preview.png " alt="wefwae" width="200px" className='relative -robntate-45 -top-[8vw]  img2' />
+                                    </div>
+                                    <div className='absolute top-[80vw]  md:-top-[10rem] items-center justify-center flex text-center '>
+                                        <img src="/intl-v2-hero-laptop@2x.png" alt="3rqd" width="400px" className='' />
+                                    </div>
+                                    <div className='text-[#484848] text-center flex items-center img2 justify-center relative top-[1.5rem] left-[1rem] text-[01.2rem] font-normal'>
+                                        <p>Scroll for more ways to save. It’s kind of our thing.</p>
+                                    </div>
+                                    <div>
+                                        <img src="/mouse-removebg-preview.png" alt="wefwae" width="160px" className='relative img3 rotate-3  -top-[9vw]' />
+                                    </div>
 
-                                    <img src="/png3-removebg-preview.png" alt="3rqd" width="220px" className='relative -top-[7vw]  -rotatsdfe-45' />
                                 </div>
-                                <div className='md:relative md:-top-[8rem] items-center justify-center flex text-center left-[0rem]'>
-                                    <button className='bg-orange-700 text-white md:w-[20vw] w-[59vw]  py-[1.2vh] md:py-[0.7vw] rounded-[5px] hover:bg-orange-600' >Add to Chrome - it's Free</button>
-                                </div>
-                                <div>
-                                    <img src="/shased-removebg-preview.png" alt="3rqd" width="200px" className='relative -top-[6vw]' />
-                                </div>
-                            </div>
-                            <div className='flex md:relative md:-top-[14.5rem] justify-center text-center items-center gap-[0rem] '>
-                                <div>
-                                    <img src="/set-removebg-preview.png " alt="wefwae" width="200px" className='relative -robntate-45 -top-[8vw]  img2' />
-                                </div>
-                                <div className='absolute top-[80vw]  md:-top-[10rem] items-center justify-center flex text-center '>
-                                    <img src="/intl-v2-hero-laptop@2x.png" alt="3rqd" width="400px" className='' />
-                                </div>
-                                <div className='text-[#484848] text-center flex items-center  justify-center relative top-[1.5rem] left-[1rem] text-[01.2rem] font-normal'>
-                                    <p>Scroll for more ways to save. It’s kind of our thing.</p>
-                                </div>
-                                <div>
-                                    <img src="/mouse-removebg-preview.png" alt="wefwae" width="160px" className='relative img3 rotate-3  -top-[9vw]' />
-                                </div>
-
                             </div>
 
                         </div>
@@ -109,7 +116,11 @@ export const Header = () => {
                 </div>
 
             </div>
-            <Text />
+            <div>
+                <Text />
+                <Text2 />
+                <Text3 />
+            </div>
         </div>
     )
 }
