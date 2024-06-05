@@ -39,7 +39,7 @@ export const Sidebar = ({ show, setshow }: SidebarProps) => {
                 >
                     {/* #7a4a3a */}
                     <div className='flex justify-between items-center w-full px-[1rem] flex-row'>
-                        {show && <div className='text-[1rem] text-[#212121] cursor-pointer font-black'>CoUpOnS</div>}
+                        {show && <div className='text-[1rem] md:text-[2rem] text-[#212121] cursor-pointer font-black'>CoUpOnS</div>}
                         {show && <RxCross1 size="6vw" onClick={() => setshow(false)} />}
                     </div>
                     <div className='w-[27%] font-sans' onClick={stopPropagation}>
