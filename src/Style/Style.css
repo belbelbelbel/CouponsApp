@@ -22,8 +22,8 @@
         overflow-x: hidden;
         overflow-y: hidden;
         font-family: "Public Sans", sans-serif;
-        padding: 2rem 0vw;
-        height: 155vw;
+        padding: 0rem 0vw;
+        height: 147vw;
     }
 
     /* .cont img {
@@ -33,6 +33,9 @@
     .img2{
         display: none;
     }
+    .log {
+        display: none;
+    }
     .img3{
         display: none;
     }
@@ -40,13 +43,14 @@
     .cont p {
         display: none;
     }
-
+    .con {
+        margin: 2rem 0rem;
+    }
     .cont2 {
-        gap: 2rem;
+        gap:2.1rem;
         width: 88%;
         margin: 0rem auto;
     }
-
     .cont3 {
         font-size: 8vw;
         position: relative;
