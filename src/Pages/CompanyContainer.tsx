@@ -1,7 +1,4 @@
 import { motion } from 'framer-motion'
-import React from 'react'
-import { HiOutlineHome } from 'react-icons/hi'
-import { LuStore } from 'react-icons/lu'
 import { Link } from 'react-router-dom'
 import { MdNearbyError, MdHelpOutline, MdWork } from 'react-icons/md'
 import { FaRegNewspaper } from 'react-icons/fa'

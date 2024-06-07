@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { FaStar } from "react-icons/fa";
 import '../Style/Style.css';
-import { RxCross1, RxHamburgerMenu } from 'react-icons/rx';
+import {  RxHamburgerMenu } from 'react-icons/rx';
 import { Sidebar } from './Sidebar';
 import { Text } from './Text';
 import { Text2 } from './Text2';

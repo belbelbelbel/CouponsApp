@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import React from 'react'
 import { MdOutlinePrivacyTip } from "react-icons/md"
 import { FaRegCopyright } from "react-icons/fa"
 import { MdPermIdentity } from "react-icons/md"
