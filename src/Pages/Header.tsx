@@ -1,5 +1,5 @@
 import  { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import { FaStar } from "react-icons/fa";
 import '../Style/Style.css';
 import {  RxHamburgerMenu } from 'react-icons/rx';
@@ -14,7 +14,6 @@ export const Header = () => {
     const [showNavbar, setShowNavbar] = useState(false
 
     );
-    const navigate = useNavigate();
 
 
     const handleShow = () => {
