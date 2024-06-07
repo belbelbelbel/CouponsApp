@@ -1,4 +1,3 @@
-import React from 'react'
 import Lottie from 'lottie-react'
 import animatedData from "../Style/Animation - 1717366044619.json"
 export const Text2 = () => {

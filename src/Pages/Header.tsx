@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { FaStar } from "react-icons/fa";
 import '../Style/Style.css';
@@ -16,9 +16,6 @@ export const Header = () => {
     );
     const navigate = useNavigate();
 
-    const handleHome = () => {
-        navigate('/');
-    };
 
     const handleShow = () => {
         setshow(!show);
