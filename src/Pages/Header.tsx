@@ -1,8 +1,8 @@
-import  { useEffect, useState } from 'react';
-import { Link} from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FaStar } from "react-icons/fa";
 import '../Style/Style.css';
-import {  RxHamburgerMenu } from 'react-icons/rx';
+import { RxHamburgerMenu } from 'react-icons/rx';
 import { Sidebar } from './Sidebar';
 import { Text } from './Text';
 import { Text2 } from './Text2';
@@ -41,7 +41,7 @@ export const Header = () => {
 
     return (
         <div>
-            <div className='bg-[#edf1fe] mx-auto flex flex-col relative  xl:py-0 md:h-[120vw] xl:h-[55vw] 2xl:h-[47vw] w-screen cont '  style={{scrollbarWidth: 'none'}}>
+            <div className='bg-[#edf1fe] mx-auto flex flex-col relative   xl:py-0 md:h-[120vw] xl:h-[55vw] 2xl:h-[47vw] w-screen cont ' style={{ scrollbarWidth: 'none' }}>
                 {showNavbar && <Navbar />}
                 <div className='xl:flex flex-col con text-center  justify-center '>
                     <div className='flex justify-between cont1 items-center xl:px-[2.3rem] md:px-[1rem] xl:py-[1.8vw] md:py-[0.8vw] relative '>
@@ -50,11 +50,11 @@ export const Header = () => {
                             <Link to="/login" className='text-[14px] font-mono underline font-normal outline-none border-none xk:tracking-tight flex md:items-center'>Log <div className='font-sans'>in</div></Link>
                         </p>
                         <div className='xl:hidden   z-30  nav'>
-                            {!show && (<div className='xl:hidden'><RxHamburgerMenu  onClick={handleShow}  className='text-[7vw] md:text-[5.5vw]'/></div>)}
+                            {!show && (<div className='xl:hidden'><RxHamburgerMenu onClick={handleShow} className='text-[7vw] md:text-[5.5vw]' /></div>)}
                             <Sidebar show={show} setshow={setshow}></Sidebar>
                         </div>
                     </div>
-                    <div className='flex flex-col items-center justify-center 2xl:-left-[1rem] relative' style={{scrollbarWidth: 'none'}}>
+                    <div className='flex flex-col items-center justify-center 2xl:right-[1vw]  relative' style={{ scrollbarWidth: 'none' }}>
                         <div className='flex flex-col mx-auto cont2 items-center  md:gap-[7vw] 2xl:gap-[5.7vw] xl:gap-[9vw]  relative md:-top-[10.7vw] xl:-top-[6.1rem]'>
                             <div className='text-center  cont3 2xl:w-[40%]  xl:w-[40%] 2xl:w-[38%] md:w-[100%] w-[90vw] text-[#212121] leading-[10vw] 2xl:leading-[3.3vw]  xl:leading-[4vw] md:leading-[9.5vw] flex relative md:my-[1vw] md:top-[8rem] 2xl:top-[7rem] md:scale-y-95 text-black font-medium tracking-[0.2px] xl:text-[3vw] md:text-[8vw]'>
                                 Love deals? You came to the right place.
@@ -73,7 +73,7 @@ export const Header = () => {
                                         <div className='flex items-center text-center xl:text-[1vw] md:text-[4vw] text-[1vw] justify-center gap-[8px]'>
                                             <div className='flex gap-[4px] xl:text-[1vw] text-[1vw] md:text-[4vw]'>
                                                 <FaStar color='#524b4b' className='2xl:text-[0.8vw] xl:text-[0.9vw] md:text-[2vw] text-[3vw]' />
-                                                <FaStar color='#524b4b' className='2xl:text-[0.8vw] xl:text-[0.9vw] xl:text-[0.9vw] md:text-[2vw] text-[3vw]'  />
+                                                <FaStar color='#524b4b' className='2xl:text-[0.8vw] xl:text-[0.9vw] xl:text-[0.9vw] md:text-[2vw] text-[3vw]' />
                                                 <FaStar color='#524b4b' className='2xl:text-[0.8vw] xl:text-[0.9vw] xl:text-[0.9vw] md:text-[2vw] text-[3vw]' />
                                                 <FaStar color='#524b4b' className='2xl:text-[0.8vw] xl:text-[0.9vw] xl:text-[0.9vw] md:text-[2vw] text-[3vw]' />
                                                 <FaStar color='#524b4b' className='2xl:text-[0.8vw] xl:text-[0.9vw] xl:text-[0.9vw] md:text-[2vw] text-[3vw]' />
