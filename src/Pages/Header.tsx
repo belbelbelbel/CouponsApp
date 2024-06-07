@@ -56,7 +56,7 @@ export const Header = () => {
                     </div>
                     <div className='flex flex-col items-center justify-center 2xl:-left-[1rem] relative' style={{scrollbarWidth: 'none'}}>
                         <div className='flex flex-col mx-auto cont2 items-center  md:gap-[7vw] 2xl:gap-[5.7vw] xl:gap-[8vw]  relative md:-top-[10.7vw] xl:-top-[6.1rem]'>
-                            <div className='text-center  cont3 2xl:w-[40%]  xl:w-[38%] 2xl:w-[38%] md:w-[100%] w-[90vw] text-[#212121] leading-[10vw] 2xl:leading-[3.3vw]  xl:leading-[4vw] md:leading-[9.5vw] flex relative md:my-[1vw] md:top-[8rem] 2xl:top-[7rem] md:scale-y-95 text-black font-medium tracking-[0.2px] xl:text-[3vw] md:text-[8vw]'>
+                            <div className='text-center  cont3 2xl:w-[40%]  xl:w-[40%] 2xl:w-[38%] md:w-[100%] w-[90vw] text-[#212121] leading-[10vw] 2xl:leading-[3.3vw]  xl:leading-[4vw] md:leading-[9.5vw] flex relative md:my-[1vw] md:top-[8rem] 2xl:top-[7rem] md:scale-y-95 text-black font-medium tracking-[0.2px] xl:text-[3vw] md:text-[8vw]'>
                                 Love deals? You came to the right place.
                             </div>
                             <div className='flex cont4 items-center 2xl:gap-[8vw]  xl:gap-[7vw]'>
@@ -110,7 +110,7 @@ export const Header = () => {
                                     <div className='relative 2xl:w-[180px] xl:w-[160px]  xl:block md:hidden md:w-[150px]'>
                                         <img src="/set-removebg-preview.png " alt="wefwae" className='relative -top-[7vw] -rotatdfve-45 img2 mb-[3rem]' />
                                     </div>
-                                    <div className='absolute top-[10vw] xl:-top-[8.5vw] items-center justify-center flex text-center md:top-[5.3vw] w-[85vw] 2xl:w-[450px] xl:w-[400px] md:w-[70vw]'>
+                                    <div className='absolute top-[10vw] xl:-top-[8.5vw] items-center justify-center flex text-center md:top-[5.3vw] w-[85vw] 2xl:w-[450px] xl:w-[360px] md:w-[70vw]'>
                                         <img src="/intl-v2-hero-laptop@2x.png" alt="3rqd" className='' />
                                     </div>
                                     <div className='absolute tracking-wider  md:hidden img2'>Scroll for more ways to save. It’s kind of our thing.</div>
