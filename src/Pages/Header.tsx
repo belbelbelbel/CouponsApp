@@ -90,20 +90,20 @@ export const Header = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='relative -rotate-6 2xl:-top-[5.5rem] xl:-top-[5rem]  -rotate-12 md:-top-[3.5rem] xl:block md:hidden 2xl:w-[230px] xl:w-[180px]  md:w-[160px] left-[0rem]'>
+                                <div className='relative -rotate-6 2xl:-top-[5vw] xl:-top-[5rem]  -rotate-12 md:-top-[3.5rem] xl:block md:hidden 2xl:w-[230px] xl:w-[180px]  md:w-[160px] left-[0rem]'>
                                     <img src="/screen-removebg-preview.png" alt="mnbv" />
                                 </div>
                             </div>
                             <div className='flex flex-col relative xl:-top-[5.6vw] 2xl:-top-[20px]  items-center justify-center xl:gap-[3vw] 2xl:gap-[1vw]'>
-                                <div className='flex relative md:-top-[6vw]   md:-left-[0.3rem] justify-center items-center md:gap-[8rem] xl:gap-[12.7vw] 2xl:gap-[12vw] '>
+                                <div className='flex relative md:-top-[6vw]   md:-left-[0.3rem] justify-center items-center md:gap-[8rem] xl:gap-[12.7vw] 2xl:gap-[14vw] '>
                                     <div className='2xl:w-[220px] xl:w-[180px] md:w-[190px] xl:block md:hidden img2'>
-                                        <img src="/png3-removebg-preview.png" alt="3rqd" className='relative -top-[7vw] right-[0.5vw]' />
+                                        <img src="/png3-removebg-preview.png" alt="3rqd" className='relative -top-[7vw] ' />
                                     </div>
                                     <div className='md:relative 2xl:-top-[8rem] xl:-top-[7.6vw] md:top-[13vw] items-center justify-center text-center flex text-center 2xl:-left-[0.5rem] xl:-left-[0rem]'>
                                         <button className='bg-orange-700 text-white md:w-[55vw] xl:w-[20vw] w-[56vw] py-[1.2vh] md:py-[2vw] xl:py-[0.7vw] md:rounded-[10px] md:text-[3vw] text-[3vw] xl:text-[1vw] rounded-[5px] xl:rounded-[5px]  z-0 hover:bg-orange-600'>Add to Chrome - it's Free</button>
                                     </div>
                                     <div className='2xl:w-[200px] xl:w-[160px] md:w-[170px] xl:block md:hidden img2'>
-                                        <img src="/shased-removebg-preview.png" alt="3rqd" className='relative 2xl:-top-[7vw] xl:-top-[6.4vw]' />
+                                        <img src="/shased-removebg-preview.png" alt="3rqd" className='relative 2xl:-top-[6.5vw] -right-[1.5vw] xl:-top-[6.4vw]' />
                                     </div>
                                 </div>
                                 <div className='flex md:relative 2xl:-top-[8.5rem] xl:-top-[11vw] justify-center text-center items-center md:gap-[25rem] xl:gap-[37vw] 2xl:gap-[37vw]'>
