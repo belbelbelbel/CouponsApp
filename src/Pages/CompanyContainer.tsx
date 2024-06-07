@@ -1,15 +1,20 @@
+import { motion } from 'framer-motion'
 import React from 'react'
-import { motion } from "framer-motion"
+import { HiOutlineHome } from 'react-icons/hi'
+import { LuStore } from 'react-icons/lu'
 import { Link } from 'react-router-dom'
-import { HiOutlineHome } from "react-icons/hi"
-import { LuStore } from "react-icons/lu"
+import { MdNearbyError, MdHelpOutline, MdWork } from 'react-icons/md'
+import { FaRegNewspaper } from 'react-icons/fa'
+import { RiBloggerLine } from 'react-icons/ri'
+import { TiMediaPause } from 'react-icons/ti'
 
 const containerVariants = {
     hidden: {},
     visible: {
         transition: {
             staggerChildren: 0.14,
-            delayChildren: 0.2,
+            delayChildren: 0.1,
+            
             ease: 'linear'
         }
     }
@@ -20,7 +25,7 @@ const itemVariants = {
     visible: { opacity: 1, x: 0 }
 };
 
-export const ShopContainer = () => {
+export const CompanyContainer = () => {
     return (
         <div>
             <motion.div
@@ -28,11 +33,15 @@ export const ShopContainer = () => {
                 animate="visible"
                 exit="hidden"
                 variants={containerVariants}
-                className='flex flex-col gap-[2vw] text-[3.1vw] md:text-[2.9vw] text-gray-600  items-start justify-start'
+                className='flex flex-col gap-[3.5vw] text-[3.4vw] md:text-[2.9vw] text-gray-500 items-start justify-start'
             >
                 {[
-                    { icon: <HiOutlineHome />, label: "Home", link: "/" },
-                    { icon: <LuStore />, label: "Store", link: "/" }
+                    { icon: <MdNearbyError />, label: "About", link: "/" },
+                    { icon: <MdHelpOutline />, label: "Help", link: "/" },
+                    { icon: <MdWork />, label: "Careers", link: "/" },
+                    { icon: <FaRegNewspaper />, label: "News", link: "/" },
+                    { icon: <RiBloggerLine />, label: "Blog", link: "/" },
+                    { icon: <TiMediaPause />, label: "Media", link: "/" }
                 ].map((item, index) => (
                     <motion.div
                         key={index}

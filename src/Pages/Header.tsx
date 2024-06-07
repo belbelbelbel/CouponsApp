@@ -45,9 +45,9 @@ export const Header = () => {
 
     return (
         <div>
-            <div className='bg-[#edf1fe] mx-auto flex flex-col relative  xl:py-0 md:h-[120vw] xl:h-[78vh] w-screen cont'>
+            <div className='bg-[#edf1fe] mx-auto flex flex-col relative  xl:py-0 md:h-[120vw] xl:h-[47vw] w-screen cont '     style={{scrollbarWidth: 'none'}}>
                 {showNavbar && <Navbar />}
-                <div className='xl:flex flex-col con text-center  justify-center'>
+                <div className='xl:flex flex-col con text-center  justify-center '>
                     <div className='md:flex justify-between cont1 items-center xl:px-[2.3rem] md:px-[1rem] xl:py-[1.8vw] md:py-[0.8vw] relative '>
                         <div className='xl:text-[1rem] md:text-[1.8rem] text-[#212121]  text-[4vw] cursor-pointer  font-black'>CoUpOnS</div>
                         <p className='co z-30 md:hidden xl:block'>
@@ -58,7 +58,7 @@ export const Header = () => {
                             <Sidebar show={show} setshow={setshow}></Sidebar>
                         </div>
                     </div>
-                    <div className='flex flex-col items-center justify-center xl:-left-[1rem] relative'>
+                    <div className='flex flex-col items-center justify-center xl:-left-[1rem] relative' style={{scrollbarWidth: 'none'}}>
                         <div className='flex flex-col mx-auto cont2 items-center  md:gap-[7vw] xl:gap-[4.7rem]  relative md:-top-[10.7vw] xl:-top-[6.1rem]'>
                             <div className='text-center  cont3 xl:w-[43%] md:w-[100%] w-[90vw] text-[#212121] leading-[10vw] xl:leading-[3.3vw] md:leading-[9.5vw] flex relative md:my-[1vw] md:top-[8rem] xl:top-[7rem] md:scale-y-95 text-black font-medium tracking-[0.2px] xl:text-[3vw] md:text-[8vw]'>
                                 Love deals? You came to the right place.

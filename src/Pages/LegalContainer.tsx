@@ -1,8 +1,12 @@
+import { motion } from 'framer-motion'
 import React from 'react'
-import { motion } from "framer-motion"
-import { Link } from 'react-router-dom'
-import { HiOutlineHome } from "react-icons/hi"
+import { MdOutlinePrivacyTip } from "react-icons/md"
+import { FaRegCopyright } from "react-icons/fa"
+import { MdPermIdentity } from "react-icons/md"
+import { GiTeePipe } from "react-icons/gi"
 import { LuStore } from "react-icons/lu"
+import { TbAccessible } from "react-icons/tb"
+import { Link } from 'react-router-dom'
 
 const containerVariants = {
     hidden: {},
@@ -20,7 +24,7 @@ const itemVariants = {
     visible: { opacity: 1, x: 0 }
 };
 
-export const ShopContainer = () => {
+export const LegalContainer = () => {
     return (
         <div>
             <motion.div
@@ -28,11 +32,15 @@ export const ShopContainer = () => {
                 animate="visible"
                 exit="hidden"
                 variants={containerVariants}
-                className='flex flex-col gap-[2vw] text-[3.1vw] md:text-[2.9vw] text-gray-600  items-start justify-start'
+                className='flex flex-col gap-[2vw] text-[3vw] md:text-[2.9vw] text-gray-600  items-start justify-start'
             >
                 {[
-                    { icon: <HiOutlineHome />, label: "Home", link: "/" },
-                    { icon: <LuStore />, label: "Store", link: "/" }
+                    { icon: <MdOutlinePrivacyTip />, label: "Privacy", link: "/" },
+                    { icon: <FaRegCopyright />, label: "Copyright", link: "/" },
+                    { icon: <MdPermIdentity />, label: "Patents", link: "/" },
+                    { icon: <GiTeePipe />, label: "Terms", link: "/" },
+                    { icon: <LuStore />, label: "Ad Disclosure", link: "/" },
+                    { icon: <TbAccessible />, label: "Accessibility", link: "/" }
                 ].map((item, index) => (
                     <motion.div
                         key={index}
