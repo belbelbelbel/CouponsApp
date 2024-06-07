@@ -110,7 +110,7 @@ export const Header = () => {
                                     <div className='relative 2xl:w-[180px] xl:w-[140px]  xl:block md:hidden md:w-[150px]'>
                                         <img src="/set-removebg-preview.png " alt="wefwae" className='relative -top-[7vw] -rotatdfve-45 img2 mb-[3rem]' />
                                     </div>
-                                    <div className='absolute top-[8.8vw] xl:-top-[8.5vw] items-center justify-center flex text-center md:top-[5.3vw] overflow-y-hidden w-[80vw] 2xl:w-[450px] xl:w-[340px] md:w-[70vw]'>
+                                    <div className='absolute top-[9.3vw] xl:-top-[10vw] items-center justify-center flex text-center md:top-[5.3vw] overflow-y-hidden w-[80vw] 2xl:w-[500px] xl:w-[440px] md:w-[70vw]'>
                                         <img src="/intl-v2-hero-laptop@2x.png" alt="3rqd" className='' />
                                     </div>
                                     <div className='absolute tracking-wider  md:hidden img2'>Scroll for more ways to save. It’s kind of our thing.</div>
