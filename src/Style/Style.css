@@ -23,7 +23,7 @@
         overflow-x: hidden;
         font-family: "Public Sans", sans-serif;
         padding: 0rem 0vw;
-        height: 147vw;
+        height: 150vw;
     }
     .img2{
         display: none;
@@ -42,7 +42,7 @@
         margin: 2rem 0rem;
     }
     .cont2 {
-        gap:2.1rem;
+        gap:4.1rem;
         width: 88%;
         margin: 0rem auto;
     }

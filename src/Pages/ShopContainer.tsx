@@ -27,7 +27,7 @@ export const ShopContainer = () => {
                 animate="visible"
                 exit="hidden"
                 variants={containerVariants}
-                className='flex flex-col gap-[7.5vw] text-[3.8vw] md:text-[2.9vw] text-gray-500  items-start justify-start'
+                className='flex flex-col gap-[8vw] text-[3.8vw] md:text-[2.9vw] text-gray-500  items-start justify-start'
             >
                 {[
                     { icon: <HiOutlineHome />, label: "Home", link: "/" },

@@ -100,7 +100,7 @@ export const Header = () => {
                                         <img src="/png3-removebg-preview.png" alt="3rqd" className='relative -top-[7vw] right-[0.5vw]' />
                                     </div>
                                     <div className='md:relative 2xl:-top-[8rem] xl:-top-[7.6vw] md:top-[13vw] items-center justify-center text-center flex text-center 2xl:-left-[0.5rem] xl:-left-[0rem]'>
-                                        <button className='bg-orange-700 text-white md:w-[55vw] xl:w-[20vw] w-[56vw] py-[1.2vh] md:py-[2vw] xl:py-[0.7vw] md:rounded-[10px] md:text-[3vw] xl:text-[1vw] rounded-[5px] xl:rounded-[5px]  z-0 hover:bg-orange-600'>Add to Chrome - it's Free</button>
+                                        <button className='bg-orange-700 text-white md:w-[55vw] xl:w-[20vw] w-[56vw] py-[1.2vh] md:py-[2vw] xl:py-[0.7vw] md:rounded-[10px] md:text-[3vw] text-[3vw] xl:text-[1vw] rounded-[5px] xl:rounded-[5px]  z-0 hover:bg-orange-600'>Add to Chrome - it's Free</button>
                                     </div>
                                     <div className='2xl:w-[200px] xl:w-[160px] md:w-[170px] xl:block md:hidden img2'>
                                         <img src="/shased-removebg-preview.png" alt="3rqd" className='relative 2xl:-top-[7vw] xl:-top-[6.4vw]' />
@@ -110,7 +110,7 @@ export const Header = () => {
                                     <div className='relative 2xl:w-[180px] xl:w-[140px]  xl:block md:hidden md:w-[150px]'>
                                         <img src="/set-removebg-preview.png " alt="wefwae" className='relative -top-[7vw] -rotatdfve-45 img2 mb-[3rem]' />
                                     </div>
-                                    <div className='absolute top-[10vw] xl:-top-[8.5vw] items-center justify-center flex text-center md:top-[5.3vw] w-[85vw] 2xl:w-[450px] xl:w-[340px] md:w-[70vw]'>
+                                    <div className='absolute top-[8.8vw] xl:-top-[8.5vw] items-center justify-center flex text-center md:top-[5.3vw] overflow-y-hidden w-[80vw] 2xl:w-[450px] xl:w-[340px] md:w-[70vw]'>
                                         <img src="/intl-v2-hero-laptop@2x.png" alt="3rqd" className='' />
                                     </div>
                                     <div className='absolute tracking-wider  md:hidden img2'>Scroll for more ways to save. It’s kind of our thing.</div>
