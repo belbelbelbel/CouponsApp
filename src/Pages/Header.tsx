@@ -55,11 +55,11 @@ export const Header = () => {
                         </div>
                     </div>
                     <div className='flex flex-col items-center justify-center 2xl:-left-[1rem] relative' style={{scrollbarWidth: 'none'}}>
-                        <div className='flex flex-col mx-auto cont2 items-center  md:gap-[7vw] 2xl:gap-[5.7vw] xl:gap-[8vw]  relative md:-top-[10.7vw] xl:-top-[6.1rem]'>
+                        <div className='flex flex-col mx-auto cont2 items-center  md:gap-[7vw] 2xl:gap-[5.7vw] xl:gap-[9vw]  relative md:-top-[10.7vw] xl:-top-[6.1rem]'>
                             <div className='text-center  cont3 2xl:w-[40%]  xl:w-[40%] 2xl:w-[38%] md:w-[100%] w-[90vw] text-[#212121] leading-[10vw] 2xl:leading-[3.3vw]  xl:leading-[4vw] md:leading-[9.5vw] flex relative md:my-[1vw] md:top-[8rem] 2xl:top-[7rem] md:scale-y-95 text-black font-medium tracking-[0.2px] xl:text-[3vw] md:text-[8vw]'>
                                 Love deals? You came to the right place.
                             </div>
-                            <div className='flex cont4 items-center 2xl:gap-[8vw]  xl:gap-[7vw]'>
+                            <div className='flex cont4 items-center 2xl:gap-[8vw]  xl:gap-[9vw]'>
                                 <div className='2xl:w-[270px] xl:w-[220px]  md:w-[200px] xl:block md:hidden '>
                                     <img src="/vr-removebg-preview.png" alt="b,j" className='relative -top-[5vw]  -right-[1rem]' />
                                 </div>
@@ -94,27 +94,27 @@ export const Header = () => {
                                     <img src="/screen-removebg-preview.png" alt="mnbv" />
                                 </div>
                             </div>
-                            <div className='flex flex-col relative xl:-top-[4vw] 2xl:-top-[20px]  items-center justify-center xl:gap-[2vw] 2xl:gap-[1vw]'>
-                                <div className='flex relative md:-top-[6vw]   md:-left-[0.3rem] justify-center items-center md:gap-[8rem] xl:gap-[11vw] 2xl:gap-[12vw] '>
-                                    <div className='2xl:w-[220px] xl:w-[200px] md:w-[190px] xl:block md:hidden img2'>
+                            <div className='flex flex-col relative xl:-top-[5.6vw] 2xl:-top-[20px]  items-center justify-center xl:gap-[3vw] 2xl:gap-[1vw]'>
+                                <div className='flex relative md:-top-[6vw]   md:-left-[0.3rem] justify-center items-center md:gap-[8rem] xl:gap-[12.7vw] 2xl:gap-[12vw] '>
+                                    <div className='2xl:w-[220px] xl:w-[180px] md:w-[190px] xl:block md:hidden img2'>
                                         <img src="/png3-removebg-preview.png" alt="3rqd" className='relative -top-[7vw] right-[0.5vw]' />
                                     </div>
                                     <div className='md:relative 2xl:-top-[8rem] xl:-top-[7.6vw] md:top-[13vw] items-center justify-center text-center flex text-center 2xl:-left-[0.5rem] xl:-left-[0rem]'>
                                         <button className='bg-orange-700 text-white md:w-[55vw] xl:w-[20vw] w-[56vw] py-[1.2vh] md:py-[2vw] xl:py-[0.7vw] md:rounded-[10px] md:text-[3vw] xl:text-[1vw] rounded-[5px] xl:rounded-[5px]  z-0 hover:bg-orange-600'>Add to Chrome - it's Free</button>
                                     </div>
-                                    <div className='2xl:w-[200px] xl:w-[180px] md:w-[170px] xl:block md:hidden img2'>
+                                    <div className='2xl:w-[200px] xl:w-[160px] md:w-[170px] xl:block md:hidden img2'>
                                         <img src="/shased-removebg-preview.png" alt="3rqd" className='relative 2xl:-top-[7vw] xl:-top-[6.4vw]' />
                                     </div>
                                 </div>
-                                <div className='flex md:relative 2xl:-top-[8.5rem] xl:-top-[8rem] justify-center text-center items-center md:gap-[25rem] xl:gap-[35vw] 2xl:gap-[37vw]'>
-                                    <div className='relative 2xl:w-[180px] xl:w-[160px]  xl:block md:hidden md:w-[150px]'>
+                                <div className='flex md:relative 2xl:-top-[8.5rem] xl:-top-[11vw] justify-center text-center items-center md:gap-[25rem] xl:gap-[37vw] 2xl:gap-[37vw]'>
+                                    <div className='relative 2xl:w-[180px] xl:w-[140px]  xl:block md:hidden md:w-[150px]'>
                                         <img src="/set-removebg-preview.png " alt="wefwae" className='relative -top-[7vw] -rotatdfve-45 img2 mb-[3rem]' />
                                     </div>
-                                    <div className='absolute top-[10vw] xl:-top-[8.5vw] items-center justify-center flex text-center md:top-[5.3vw] w-[85vw] 2xl:w-[450px] xl:w-[360px] md:w-[70vw]'>
+                                    <div className='absolute top-[10vw] xl:-top-[8.5vw] items-center justify-center flex text-center md:top-[5.3vw] w-[85vw] 2xl:w-[450px] xl:w-[340px] md:w-[70vw]'>
                                         <img src="/intl-v2-hero-laptop@2x.png" alt="3rqd" className='' />
                                     </div>
                                     <div className='absolute tracking-wider  md:hidden img2'>Scroll for more ways to save. It’s kind of our thing.</div>
-                                    <div className='relative 2xl:w-[150px] xl:w-[130px]  xl:block md:hidden no-wrap md:w-[120px]'>
+                                    <div className='relative 2xl:w-[150px] xl:w-[110px]  xl:block md:hidden no-wrap md:w-[120px]'>
                                         <img src="/mouse-removebg-preview.png" alt="wefwae" className='relative img3 rotate-3 -top-[9vw]' />
                                     </div>
                                 </div>
