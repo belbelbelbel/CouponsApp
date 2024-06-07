@@ -5,7 +5,7 @@ export const Text3 = () => {
         <div>
             <div className='bg-[whitesmoke] w-screen py-[3.5rem]  text-black text'>
                 <div className='flex py-[2rem] flex-col w-[91%] mx-auto  items-center relative -top-[0rem]'>
-                    <div className='w-[70vw] xl:w-[20vw] md:w-[50%]  max-h-[60vh] flex rounded-[100%] bg-transparent' >
+                    <div className='w-[65vw] xl:w-[20vw] md:w-[50%]  max-h-[60vh] flex rounded-[100%] bg-transparent' >
                         <Lottie animationData={animatedData}></Lottie>
                     </div>
                     <div className='flex flex-col relative  -top-[0rem] md:-top-[0rem] gap-[0.7rem] md:gap-[0.5rem]'>

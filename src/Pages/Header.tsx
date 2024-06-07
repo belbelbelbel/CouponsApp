@@ -50,7 +50,7 @@ export const Header = () => {
                             <Link to="/login" className='text-[14px] font-mono underline font-normal outline-none border-none xk:tracking-tight flex md:items-center'>Log <div className='font-sans'>in</div></Link>
                         </p>
                         <div className='xl:hidden   z-30  nav'>
-                            {!show && (<div className='xl:hidden'><RxHamburgerMenu size="6vw" onClick={handleShow} /></div>)}
+                            {!show && (<div className='xl:hidden'><RxHamburgerMenu  onClick={handleShow}  className='text-[7vw] md:text-[5.5vw]'/></div>)}
                             <Sidebar show={show} setshow={setshow}></Sidebar>
                         </div>
                     </div>

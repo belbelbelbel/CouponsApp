@@ -28,7 +28,7 @@ interface SidebarProps {
 
 const itemVariants = {
     hidden: { opacity: 0, x: -5 },
-    visible: { opacity: 1, x: 15 }
+    visible: { opacity: 1, x: 0 }
 };
 
 export const Sidebar = ({ show, setshow }: SidebarProps) => {
@@ -81,7 +81,7 @@ export const Sidebar = ({ show, setshow }: SidebarProps) => {
                         {show && <div className='text-[3.6vw] text-[#212121] cursor-pointer font-black'>CoUpOnS</div>}
                         {show && <RxCross1 size="5vw" onClick={() => setshow(false)} />}
                     </div>
-                    <ul className='w-[100%] font-sans flex  flex-col md:gap-[5vw] gap-[6vw] max-w-[90%] md:w-[85%] mx-auto  items-start  justify-center' onClick={stopPropagation}>
+                    <ul className='w-[100%] font-sans flex  flex-col md:gap-[5vw] gap-[8vw] max-w-[90%] md:w-[85%] mx-auto  items-start  justify-center' onClick={stopPropagation}>
                         <motion.li variants={itemVariants} className='text-[3.4vw] '><Link to="/">
                             <div className='flex items-center gap-[2.5vw]'>
                                 <GiJamesBondAperture className='text-[#212121]' size="4vw" />
@@ -97,7 +97,7 @@ export const Sidebar = ({ show, setshow }: SidebarProps) => {
                         <motion.div variants={itemVariants}
                             className='bg-gray-300 w-[97%] md:w-[100%] h-[1px]'></motion.div>
 
-                        <div className='flex w-full flex-col items-center justify-center gap-[3.5vw]'>
+                        <div className='flex w-full flex-col items-center justify-center gap-[4.5vw]'>
                             <motion.div variants={itemVariants} className='flex justify-between   items-center w-full'>
                                 <li className='text-[3.4vw] relative flex items-center'>
                                     <div className='flex items-center gap-[2.5vw] absolute'>
@@ -151,7 +151,7 @@ export const Sidebar = ({ show, setshow }: SidebarProps) => {
                         </Link></motion.li>
                         <motion.div variants={itemVariants}
                             className='bg-gray-300 w-[97%] md:w-[100%] h-[1px]'></motion.div>
-                        <div className='flex flex-col w-full gap-[3vw]'>
+                        <div className='flex flex-col w-full gap-[4vw]'>
                             <motion.div variants={itemVariants} className='flex justify-between items-center'>
                                 <li className='text-[3.4vw] relative flex items-center'>
 
@@ -181,7 +181,7 @@ export const Sidebar = ({ show, setshow }: SidebarProps) => {
 
                         <motion.div variants={itemVariants}
                             className='bg-gray-300 w-[97%] md:w-[100%] h-[1px]'></motion.div>
-                        <div className='w-full flex flex-col'>
+                        <div className='w-full flex flex-col gap-[4vw]'>
                             <motion.div variants={itemVariants} className='flex items-center justify-between'>
                                 <li className='text-[3.4vw] relative flex items-center'>
                                     <div className='flex items-center gap-[2.5vw] absolute'>
@@ -195,17 +195,16 @@ export const Sidebar = ({ show, setshow }: SidebarProps) => {
                                     }
                                 </div>
                             </motion.div>
-                            <div>
                                 {
                                     showproduct && <div className='w-[70%] my-[0.7rem] mx-auto flex items-center justify-start'>
                                        <ProductContainer/>
                                     </div>
                                 }
-                            </div>
+
                         </div>
                         <motion.div variants={itemVariants}
                             className='bg-gray-300 w-[97%] md:w-[100%] h-[1px]'></motion.div>
-                        <div className='w-full flex flex-col'>
+                        <div className='w-full flex flex-col gap-[4vw]'>
                             <motion.div variants={itemVariants} className='flex items-center justify-between  '>
                                 <li className='text-[3.4vw] relative flex items-center'>
                                     <div className='flex items-center gap-[2.5vw] absolute '>

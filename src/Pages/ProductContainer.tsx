@@ -28,7 +28,7 @@ export const ProductContainer = () => {
                 animate="visible"
                 exit="hidden"
                 variants={containerVariants}
-                className='flex flex-col gap-[2vw] text-[3.1vw] md:text-[2.9vw] text-gray-600 tracking-[1px] items-start justify-start'
+                className='flex flex-col gap-[7.5vw] text-[3.8vw] md:text-[2.9vw] text-gray-500 tracking-[1pxwe] items-start justify-start'
             >
                 {[
                     { icon: <FaDroplet />, label: "Droplist", link: "/" },

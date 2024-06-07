@@ -31,7 +31,7 @@ export const LegalContainer = () => {
                 animate="visible"
                 exit="hidden"
                 variants={containerVariants}
-                className='flex flex-col gap-[2vw] text-[3vw] md:text-[2.9vw] text-gray-600  items-start justify-start'
+                className='flex flex-col gap-[7.5vw] text-[3.8vw] md:text-[2.9vw] text-gray-500  items-start justify-start'
             >
                 {[
                     { icon: <MdOutlinePrivacyTip />, label: "Privacy", link: "/" },
