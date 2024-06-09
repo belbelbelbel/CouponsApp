@@ -55,7 +55,7 @@ export const Header = () => {
                         </div>
                     </div>
                     <div className='flex flex-col items-center justify-center 2xl:right-[1vw]  relative' style={{ scrollbarWidth: 'none' }}>
-                        <div className='flex flex-col mx-auto cont2 items-center  md:gap-[7vw] 2xl:gap-[5.7vw] xl:gap-[9vw]  relative md:-top-[10.7vw] xl:-top-[6.1rem]'>
+                        <div className='flex flex-col mx-auto cont2 items-center  md:gap-[7vw] 2xl:gap-[5.7vw] xl:gap-[9vw]  relative md:-top-[10.7vw] xl:-top-[7vw] 2xl:-top-[6.1vw]'>
                             <div className='text-center  cont3 2xl:w-[40%]  xl:w-[40%] 2xl:w-[38%] md:w-[100%] w-[90vw] text-[#212121] leading-[10vw] 2xl:leading-[3.3vw]  xl:leading-[4vw] md:leading-[9.5vw] flex relative md:my-[1vw] md:top-[8rem] 2xl:top-[7rem] md:scale-y-95 text-black font-medium tracking-[0.2px] xl:text-[3vw] md:text-[8vw]'>
                                 Love deals? You came to the right place.
                             </div>
