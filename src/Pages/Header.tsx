@@ -38,7 +38,7 @@ export const Header = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-
+    
     return (
         <div>
             <div className='bg-[#edf1fe] mx-auto flex flex-col relative   xl:py-0 md:h-[120vw] xl:h-[55vw] 2xl:h-[47vw] w-screen cont ' style={{ scrollbarWidth: 'none' }}>

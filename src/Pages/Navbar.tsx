@@ -1,4 +1,4 @@
-import  { useState } from 'react'
+import { useState } from 'react'
 import { RxHamburgerMenu } from 'react-icons/rx'
 
 import { Link } from 'react-router-dom'
@@ -20,7 +20,7 @@ export const Navbar = () => {
                                 <Link to="/login" className=' text-[14px] font-mono underline font-normal outline-none border-none md:tracking-tight flex md:items-center'>Log <div className='  font-sans'>in</div></Link>
                             </div>
                             <div className='xl:hidden  nav'>
-                                {!show  ?  (<div><RxHamburgerMenu  onClick={handleShow} className='text-[7vw] md:text-[5.5vw]'/></div>):(<div><RxHamburgerMenu size="6vw" onClick={handleShow} /></div>)}
+                                {!show ? (<div><RxHamburgerMenu onClick={handleShow} className='text-[7vw] md:text-[5.5vw]' /></div>) : (<div><RxHamburgerMenu size="6vw" onClick={handleShow} /></div>)}
                                 <Sidebar show={show} setshow={setshow}></Sidebar>
                             </div>
                         </div>
