@@ -5,7 +5,7 @@ export const Text2 = () => {
     <div className='bg-[#ecf7f8] w-screen py-[3.5rem]  text-black text'>
       <div className='flex py-[2rem] flex-col w-[100%] mx-auto  text-center justify-center items-center relative -top-[0rem]'>
         <div className='w-[65%] xl:w-[32vw] mx-auto  md:w-[50%] text-center  max-h-[40vh] flex rounded-[100%] bg-transparent' >
-          {/* <Lottie animationData={animatedData}></Lottie> */}
+          <Lottie animationData={animatedData}></Lottie>
         </div>
         <div className='flex flex-col relative  -top-[0rem] md:-top-[0rem] gap-[0.7rem] md:gap-[0.5rem]'>
           <div className='text-center   xl:max-w-[35%] md: max-w-[65%]  mx-auto text-[5.5vw] xl:text-[3vw] font-medium md:leading-[3rem] md:text-[5.5vw] xl:text-[3rem] xl:leading-[3rem] text-[#195154] '>Earn gift cards just for shopping</div>
